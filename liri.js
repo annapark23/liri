@@ -5,7 +5,7 @@ var search = process.argv.splice(3).join(" ");
 
 var fs = require('fs');
 var Spotify = require('node-spotify-api');
-// var axios = require('axios');
+var axios = require('axios');
 
 var Spotify = require('node-spotify-api');var spotify = new Spotify({
         id: '213f2cd0422a4af8b6929b9fe36e5e9a',
